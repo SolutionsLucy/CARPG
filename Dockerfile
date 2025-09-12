@@ -1,5 +1,5 @@
 # Multi-stage build for better optimization
-FROM openjdk:21-jdk-slim AS builder
+FROM openjdk:17-jdk-slim AS builder
 
 # Install necessary packages
 RUN apt-get update && apt-get install -y \
@@ -31,7 +31,7 @@ RUN echo "# Xmx and Xms set the maximum and minimum RAM usage, respectively." > 
 	echo "-Xmx4G -Xms4G -Dlog4j2.formatMsgNoLookups=true -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:G1MixedGCLiveThresholdPercent=35" >> user_jvm_args.txt
 
 # Production stage
-FROM openjdk:21-jdk-slim
+FROM openjdk:17-jdk-slim
 
 LABEL maintainer="Minecraft Server"
 LABEL description="Minecraft Forge Server 1.20.1 for Coolify"
