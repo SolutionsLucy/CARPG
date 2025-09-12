@@ -1,0 +1,89 @@
+{
+  "type": "gateways:endless",
+  "size": "large",
+  "color": "#FFFF84",
+  "base_wave": {
+    "entities": [
+      {
+        "entity": "cisco_mod:cisco",
+        "count": 1
+      }
+    ],
+    "rewards": [
+      {
+        "type": "gateways:stack",
+        "stack": {
+          "item": "cisco_mod:champion_coin"
+        },
+        "rolls": 5
+      }
+    ],
+    "max_wave_time": 800,
+    "setup_time": 100
+  },
+  "modifiers": [
+    {
+      "application_mode": {
+        "type": "gateways:after_every_n_waves",
+        "waves": 2,
+        "max": 2
+      },
+      "entities": [
+        {
+          "entity": "cisco_mod:fellkingboss",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "type": "gateways:stack",
+          "stack": {
+            "item": "cisco_mod:champion_coin"
+          },
+          "rolls": 10
+        }
+      ],
+      "max_wave_time": -40,
+      "setup_time": -10
+    },
+    {
+      "application_mode": {
+        "type": "gateways:after_every_n_waves",
+        "waves": 1,
+        "max": 2
+      },
+      "modifiers": [
+        {
+          "attribute": "minecraft:generic.max_health",
+          "operation": "multiply_total",
+          "value": 2.15
+        },
+        {
+          "attribute": "minecraft:generic.armor",
+          "operation": "addition",
+          "value": 100
+        },
+        {
+          "attribute": "minecraft:generic.attack_damage",
+          "operation": "multiply_total",
+          "value": 2.5
+        },
+        {
+          "attribute": "minecraft:generic.knockback_resistance",
+          "operation": "addition",
+          "value": 0.5
+        },
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "operation": "multiply_total",
+          "value": 0.06
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "boss_event": {
+    "mode": "wave_count"
+  },
+  "spawn_algorithm": "gateways:inward_spiral"
+}

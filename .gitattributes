@@ -1,0 +1,5 @@
+mods/*.jar !text !filter !merge !diff
+*.jar !text !filter !merge !diff
+*.zip !text !filter !merge !diff
+*.tgz !text !filter !merge !diff
+*.png !text !filter !merge !diff
