@@ -55,7 +55,12 @@ WORKDIR /minecraft
 # Copy built server from builder stage
 
 # Copy built server from builder stage
+
+# Copy built server from builder stage
 COPY --from=builder /minecraft /minecraft
+
+# Copy variables.txt to /minecraft
+COPY variables.txt /minecraft/variables.txt
 
 # Copy start scripts to root
 COPY ./start.sh /start.sh
