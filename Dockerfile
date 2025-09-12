@@ -62,11 +62,11 @@ COPY --from=builder /minecraft /minecraft
 # Copy variables.txt to /minecraft
 COPY variables.txt /minecraft/variables.txt
 
-# Copy start scripts to root
-COPY ./start.sh /start.sh
+# Copy start script into /minecraft so it runs from the same working directory
+COPY ./start.sh /minecraft/start.sh
 
-# Make startup scripts executable
-RUN chmod +x /start.sh
+# Make startup script executable inside /minecraft
+RUN chmod +x /minecraft/start.sh
 
 # Create necessary directories
 RUN mkdir -p /minecraft/world /minecraft/logs /minecraft/crash-reports && \
@@ -91,5 +91,5 @@ ENV JAVA_ARGS="-Xmx8G -Xms8G"
 ENV ADDITIONAL_ARGS="-Dlog4j2.formatMsgNoLookups=true"
 ENV EULA=true
 
-# Use the startup script
-ENTRYPOINT ["/bin/bash", "/start.sh"]
+# Use the startup script (run from /minecraft so variables.txt is present)
+ENTRYPOINT ["/bin/bash", "/minecraft/start.sh"]
