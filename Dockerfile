@@ -73,6 +73,9 @@ RUN if [[ ! -s /minecraft/server.jar ]]; then \
 # Copy start script into /minecraft so it runs from the same working directory
 COPY ./start.sh /minecraft/start.sh
 
+# Copy default server.properties into /minecraft
+COPY ./server.properties /minecraft/server.properties
+
 # Make startup script executable inside /minecraft
 RUN chmod +x /minecraft/start.sh
 
