@@ -68,8 +68,10 @@ COPY ./start.sh /minecraft/start.sh
 # Make startup script executable inside /minecraft
 RUN chmod +x /minecraft/start.sh
 
-# Create necessary directories
+# Create necessary directories and pre-accept EULA
 RUN mkdir -p /minecraft/world /minecraft/logs /minecraft/crash-reports && \
+	echo "#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://aka.ms/MinecraftEULA)." > /minecraft/eula.txt && \
+	echo "eula=true" >> /minecraft/eula.txt && \
 	chown -R minecraft:minecraft /minecraft
 
 # Switch to minecraft user
