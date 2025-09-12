@@ -62,6 +62,14 @@ COPY --from=builder /minecraft /minecraft
 # Copy variables.txt to /minecraft
 COPY variables.txt /minecraft/variables.txt
 
+# Ensure server.jar exists (download during build if missing)
+RUN if [[ ! -s /minecraft/server.jar ]]; then \
+	echo "server.jar not found in final image, downloading..." && \
+	wget -O /minecraft/server.jar "https://github.com/neoforged/ServerStarterJar/releases/latest/download/server.jar" || true ; \
+	else \
+	echo "server.jar present in final image." ; \
+	fi && chown minecraft:minecraft /minecraft/server.jar || true
+
 # Copy start script into /minecraft so it runs from the same working directory
 COPY ./start.sh /minecraft/start.sh
 
