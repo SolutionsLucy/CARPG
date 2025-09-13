@@ -5,11 +5,6 @@
 	group: "103C318287AA2A0F"
 	icon: {
 		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
 		id: "cisco_mod:equillibrium"
 		tag: {
 			Damage: 0
@@ -21,14 +16,6 @@
 		}
 	}
 	id: "08FFA9A856E66C0A"
-	images: [{
-		height: 15.0d
-		image: "kubejs:textures/fellkingpose1.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: -13.0d
-		y: -3.5d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

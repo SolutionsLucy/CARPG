@@ -4,24 +4,8 @@
 	default_quest_size: 3.0d
 	filename: "age_of_dragons"
 	group: "3B0CDB8395E59365"
-	icon: {
-		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
-		id: "iceandfire:dragonarmor_gold_head"
-	}
+	icon: "iceandfire:dragonarmor_gold_head"
 	id: "0C7C5F4FF6A7BCA4"
-	images: [{
-		height: 20.0d
-		image: "iceandfire:textures/logo.png"
-		rotation: 0.0d
-		width: 20.0d
-		x: -52.5d
-		y: -8.5d
-	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -259,20 +243,15 @@
 					entity: "iceandfire:dread_lich"
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "iceandfire:lich_staff"
 						tag: {
 							Damage: 0
 						}
 					}
 					id: "72DCFC131DF7EC57"
-					title: "Kill a Dread Lich"
+					title: "Kill 5 Dread Liches"
 					type: "kill"
-					value: 1L
+					value: 5L
 				}
 				{
 					id: "7922A2BC301EA5C2"

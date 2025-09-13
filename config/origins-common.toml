@@ -334,7 +334,6 @@
 		"medievalorigins:high_elf/gear_spawn" = true
 		"medievalorigins:high_elf/ebonbreath" = true
 		"medievalorigins:high_elf/fragile" = true
-		"medievalorigins:high_elf/instant_cure" = true
 
 	[origins."medievalorigins:plague_victim"]
 		enabled = true

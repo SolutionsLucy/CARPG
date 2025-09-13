@@ -50,7 +50,7 @@
 				}
 				id: "gateways:gate_pearl"
 				tag: {
-					gateway: "gateways:cisco_ultra_gate"
+					gateway: "gateways:large/cisco_ultra_gate"
 				}
 			}
 			id: "4117F0B665E3CA2D"
@@ -79,7 +79,7 @@
 						}
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:cisco_ultra_gate"
+							gateway: "gateways:large/cisco_ultra_gate"
 						}
 					}
 					type: "item"
@@ -104,7 +104,7 @@
 				}
 				id: "gateways:gate_pearl"
 				tag: {
-					gateway: "gateways:large_cataclysm_gate"
+					gateway: "gateways:large/large_cataclysm_gate"
 				}
 			}
 			id: "4288F14E88A87640"
@@ -133,7 +133,7 @@
 						}
 						id: "gateways:gate_pearl"
 						tag: {
-							gateway: "gateways:large_cataclysm_gate"
+							gateway: "gateways:large/large_cataclysm_gate"
 						}
 					}
 					type: "item"
@@ -175,17 +175,9 @@
 			id: "3C1CDBC749329522"
 			rewards: [
 				{
-					auto: "disabled"
 					command: "/autoleveling level add 150"
-					elevate_perms: true
-					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "cisco_mod:ascended_hero_helmet"
 						tag: {
 							Damage: 0
@@ -197,7 +189,6 @@
 						}
 					}
 					id: "56FAB134FC2045F1"
-					team_reward: true
 					title: "Increase world level by 150"
 					type: "command"
 				}
@@ -269,17 +260,9 @@
 			id: "10AAB70F4D035819"
 			rewards: [
 				{
-					auto: "disabled"
 					command: "/autoleveling level add 300"
-					elevate_perms: true
-					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "cisco_mod:absolute_equillibrium"
 						tag: {
 							Damage: 0
@@ -291,7 +274,6 @@
 						}
 					}
 					id: "5EF90F8D0DD4EB55"
-					team_reward: true
 					title: "Raise world level by 300"
 					type: "command"
 				}
@@ -361,17 +343,9 @@
 			id: "64914C7972F93909"
 			rewards: [
 				{
-					auto: "disabled"
 					command: "/autoleveling level add 500"
-					elevate_perms: true
-					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "cisco_mod:sylvi_helmet"
 						tag: {
 							Damage: 0
@@ -383,22 +357,13 @@
 						}
 					}
 					id: "0796735DCE56B515"
-					team_reward: true
 					title: "Raise world level by 500"
 					type: "command"
 				}
 				{
-					auto: "disabled"
 					command: "/ftbquests change_progress @p reset 2E1FB48E562F5408"
-					elevate_perms: true
-					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "cisco_mod:bjorn_helmet"
 						tag: {
 							Damage: 0
@@ -410,7 +375,6 @@
 						}
 					}
 					id: "6246CE0BB0E2F0D1"
-					team_reward: false
 					title: "Reset Deus Chapter"
 					type: "command"
 				}

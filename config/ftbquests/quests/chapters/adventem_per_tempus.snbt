@@ -6,25 +6,12 @@
 	group: "3B0CDB8395E59365"
 	icon: {
 		Count: 1
-		ForgeCaps: {
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
-		}
 		id: "alexscaves:cave_codex"
 		tag: {
 			CaveBiome: "alexscaves:primordial_caves"
 		}
 	}
 	id: "0A5525F3C5451E7B"
-	images: [{
-		height: 15.0d
-		image: "alexscaves:textures/misc/mod_logo.png"
-		rotation: 0.0d
-		width: 15.0d
-		x: -10.5d
-		y: -0.5d
-	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [
@@ -69,6 +56,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0008DBE99D0FA5FE"]
 			description: ["Once you have found the underground cabin search within it for the items  neccesary to begin your journey."]
 			id: "0741942A0CF808E5"
 			rewards: [{
@@ -175,7 +163,6 @@
 				}
 				type: "item"
 			}]
-			size: 5.0d
 			subtitle: "The Spelunkery Table"
 			tasks: [{
 				icon: "alexscaves:spelunkery_table"
@@ -186,11 +173,10 @@
 				to_observe: "alexscaves:spelunkery_table"
 				type: "observation"
 			}]
-			x: 16.5d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0741942A0CF808E5"]
 			description: [
 				"After a obtaining a cave codex you may use it craft a map by surrounding it with paper in a crafting table."
 				""
@@ -211,7 +197,7 @@
 				}
 				type: "item"
 			}]
-			size: 3.0d
+			size: 5.0d
 			subtitle: "Crafting a Cave Map "
 			tasks: [{
 				advancement: "alexscaves:alexscaves/cave_map"
@@ -220,7 +206,7 @@
 				title: "Craft a Cave Map"
 				type: "advancement"
 			}]
-			x: 12.0d
+			x: 17.5d
 			y: 0.0d
 		}
 		{

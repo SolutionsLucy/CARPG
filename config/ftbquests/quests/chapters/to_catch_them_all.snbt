@@ -11,17 +11,9 @@
 			description: ["The angler's best freind."]
 			icon: {
 				Count: 1
-				ForgeCaps: {
-					"celestisynth:celestisynthitemstackcapabilities": {
-						cs.aquaSkin: 0
-					}
-				}
-				id: "aquaculture:iron_fishing_rod"
+				id: "aquaculture:neptunium_fishing_rod"
 				tag: {
 					Damage: 0
-					affix_data: {
-						sockets: 0
-					}
 				}
 			}
 			id: "508B2896433C0FD2"
@@ -55,23 +47,16 @@
 			tasks: [{
 				id: "41696155EA6B0499"
 				item: {
-					Count: 1
-					ForgeCaps: {
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
-					}
-					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					id: "itemfilters:tag"
 					tag: {
-						Damage: 0
-						affix_data: {
-							sockets: 0
-						}
+						value: "forge:tools/fishing_rods"
 					}
 				}
+				title: "Any #forge:tools/fishing_rods"
 				type: "item"
 			}]
-			title: "Craft an Iron fishing Rod"
+			title: "Craft a fishing Rod"
 			x: -0.5d
 			y: 0.0d
 		}

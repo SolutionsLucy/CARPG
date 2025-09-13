@@ -12,5 +12,6 @@
   "lootChance": 0.025,
   "mobEntityUseImmersiveArmorChance": 0.5,
   "overwriteValues": {},
+  "enabledArmors": {},
   "version": 1
 }

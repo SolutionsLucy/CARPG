@@ -1,7 +1,7 @@
 {
 	id: "10B1A06C859FCE72"
 	loot_size: 1
-	order_index: 10
+	order_index: 11
 	rewards: [
 		{ count: 3, item: "twilightforest:fiery_ingot" }
 		{ count: 3, item: "twilightforest:ironwood_ingot" }

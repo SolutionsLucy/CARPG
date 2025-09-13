@@ -10,7 +10,7 @@
 		string_id: "common_crate"
 	}
 	loot_size: 1
-	order_index: 9
+	order_index: 10
 	rewards: [
 		{ count: 4, item: "apotheosis:gem_dust" }
 		{ count: 4, item: "minecraft:iron_ingot" }
