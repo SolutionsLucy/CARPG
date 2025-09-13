@@ -59,7 +59,8 @@ RECOMMENDED_JAVA_VERSION=17
 JAVA_ARGS="-Xmx8G -Xms8G"
 JAVA="java"
 WAIT_FOR_USER_INPUT=true
-ADDITIONAL_ARGS=-Dlog4j2.formatMsgNoLookups=true
+# Added -Dfml.readTimeout=900 to ensure Fabric/Forge modloader read timeout increased on server start
+ADDITIONAL_ARGS=-Dlog4j2.formatMsgNoLookups=true -Dfml.readTimeout=900
 RESTART=false
 SKIP_JAVA_CHECK=false
 JDK_VENDOR=temurin

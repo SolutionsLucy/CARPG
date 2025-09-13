@@ -101,7 +101,7 @@ USER minecraft
 
 # Environment variables from variables.txt
 ENV JAVA_ARGS="-Xmx8G -Xms8G"
-ENV ADDITIONAL_ARGS="-Dlog4j2.formatMsgNoLookups=true"
+ENV ADDITIONAL_ARGS="-Dlog4j2.formatMsgNoLookups=true -Dfml.readTimeout=900"
 ENV EULA=true
 
 # Use the startup script (run from /minecraft so variables.txt is present)
