@@ -3,8 +3,34 @@
 	default_quest_shape: "diamond"
 	filename: "ciscos_dread_knight"
 	group: "3B0CDB8395E59365"
-	icon: "apotheosis:mythic_material"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "apotheosis:mythic_material"
+	}
 	id: "2E1FB48E562F5408"
+	images: [
+		{
+			height: 10.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 18.0d
+			y: -17.0d
+		}
+		{
+			height: 12.0d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 18.0d
+			y: -31.5d
+		}
+	]
 	order_index: 7
 	progression_mode: "flexible"
 	quest_links: [ ]

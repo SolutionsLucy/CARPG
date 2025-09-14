@@ -1610,7 +1610,7 @@
 		{
 			dependencies: ["099E53EE758F1F2C"]
 			description: [
-				"The Dead Upside Down Forest is a surreal landscape where the trees grow inverted, with their roots reaching toward the sky. "
+				"The Upside Down Forest is a surreal landscape where the trees grow inverted, with their roots reaching toward the sky. "
 				""
 				"The forest is filled with dead, twisted trees and a haunting atmosphere, as the ground is covered in withered foliage and dark vegetation."
 			]
@@ -1665,6 +1665,7 @@
 				title: "Visit the dead upside down forest"
 				type: "biome"
 			}]
+			title: "Visit the upside down forest"
 			x: -2.0d
 			y: 9.0d
 		}

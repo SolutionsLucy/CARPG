@@ -4,6 +4,14 @@
 	filename: "the_squires_trials"
 	group: "3B0CDB8395E59365"
 	id: "744084D7C7EA8A6C"
+	images: [{
+		height: 22.0d
+		image: "kubejs:textures/fallenpose1.png"
+		rotation: 0.0d
+		width: 22.0d
+		x: 4.5d
+		y: -1.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -2005,8 +2013,12 @@
 				id: "1A2B267D5FC7A321"
 				item: {
 					Count: 1
-					id: "xpbook:xp_tome"
-					tag: { }
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "globalxp:xp_block"
 				}
 				type: "item"
 			}]

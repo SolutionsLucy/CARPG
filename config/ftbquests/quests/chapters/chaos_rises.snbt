@@ -3,8 +3,24 @@
 	default_quest_shape: ""
 	filename: "chaos_rises"
 	group: "3B0CDB8395E59365"
-	icon: "born_in_chaos_v1:orbofthe_summoner"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "born_in_chaos_v1:orbofthe_summoner"
+	}
 	id: "0820FF9EAE3E8DC3"
+	images: [{
+		height: 15.0d
+		image: "born_in_chaos_v1:textures/chaosicon2.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -19.5d
+		y: -2.0d
+	}]
 	order_index: 6
 	quest_links: [ ]
 	quests: [

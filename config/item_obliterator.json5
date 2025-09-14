@@ -16,7 +16,7 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "aether_redux:sentry_ring","sons_of_sins:wistivers_jaws","majruszdifficulty:bandage","ringsofascension:ring_hungerless","celestisynth:keres","sons_of_sins:cursed_head","twilightforest:uncrafting_table","alexsmobs:mimicream","examplemod:example_item"
+    "aether_redux:sentry_ring","sons_of_sins:wistivers_jaws","skilltree:toxic_quiver","skilltree:silent_quiver","skilltree:quiver","skilltree:healing_quiver","skilltree:gilded_quiver","skilltree:fiery_quiver","skilltree:diamond_quiver","skilltree:bone_quiver","skilltree:armored_quiver","supplementaries:quiver","majruszdifficulty:bandage","ringsofascension:ring_hungerless","celestisynth:keres","sons_of_sins:cursed_head","twilightforest:uncrafting_table","alexsmobs:mimicream","examplemod:example_item"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain nbt tag. If the whole entry (or expression) is present, the item gets removed.

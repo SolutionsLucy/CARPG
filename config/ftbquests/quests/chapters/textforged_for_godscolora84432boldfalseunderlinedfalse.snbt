@@ -144,6 +144,52 @@
 			x: 0.5d
 			y: -1.5d
 		}
+		{
+			description: [
+				"In an alternate timeline the &4Fell King &fconvinces the unamed hero to betray &6Cisco. "
+				""
+				"&6Cisco &ffully embraces the darkness within becoming the descended hero with Nightfall attaining it's final form."
+				""
+				"&cSupreme Nightfall &fpossesses a mysterious hunger for blood being able to take on  sentient defensive form when not in use to still be in the battle."
+			]
+			id: "0BC487662704AE6E"
+			rewards: [{
+				count: 200
+				id: "5759A48786E5CD1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Balance Unbound"
+			tasks: [{
+				id: "00C592DCC38094B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:supreme_nightfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
 	]
 	title: "{\"text\":\"Weapons of Legend\",\"color\":\"#f5ce42\",\"bold\":false,\"underlined\":false}"
 }

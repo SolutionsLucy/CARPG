@@ -192,6 +192,18 @@
 			}
 			weight: 0.05f
 		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "dreadsteel:dreadsteel_ingot"
+			}
+			weight: 0.25f
+		}
 	]
 	title: "Legendary Crate"
 }
