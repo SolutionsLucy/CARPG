@@ -10,9 +10,6 @@
 				Items: [ ]
 				Size: 11
 			}
-			"celestisynth:celestisynthitemstackcapabilities": {
-				cs.aquaSkin: 0
-			}
 		}
 		id: "sons_of_sins:flesh_carcass"
 		tag: {
@@ -39,6 +36,12 @@
 					count: 6
 					id: "1FEA7FC9B21FC395"
 					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7840BFA52034ACE7"
+					item: "cisco_mod:champion_loot_bag"
 					type: "item"
 				}
 			]
@@ -71,6 +74,12 @@
 					item: "cisco_mod:champion_coin"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "4ED46A5D19E279F1"
+					item: "cisco_mod:champion_loot_bag"
+					type: "item"
+				}
 			]
 			size: 2.5d
 			subtitle: "Slaying Sloth"
@@ -99,6 +108,12 @@
 					count: 6
 					id: "1C84A8A4B30E18CB"
 					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "44F11BE901E413C3"
+					item: "cisco_mod:champion_loot_bag"
 					type: "item"
 				}
 			]
@@ -132,6 +147,12 @@
 					item: "cisco_mod:champion_coin"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "60EA5F3413BDE1EF"
+					item: "cisco_mod:champion_loot_bag"
+					type: "item"
+				}
 			]
 			size: 2.5d
 			subtitle: "Eliminating Envy"
@@ -161,6 +182,12 @@
 					count: 6
 					id: "0C35B4CF7309DF4B"
 					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2F11F3B1C08812B9"
+					item: "cisco_mod:champion_loot_bag"
 					type: "item"
 				}
 			]
@@ -201,6 +228,12 @@
 					item: "cisco_mod:champion_coin"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "6B548A0E2E7A5524"
+					item: "cisco_mod:champion_loot_bag"
+					type: "item"
+				}
 			]
 			size: 2.5d
 			subtitle: "Greed's Grimace"
@@ -237,6 +270,12 @@
 					count: 6
 					id: "7F0C94147FE97138"
 					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3CDE5CC6F2AEA987"
+					item: "cisco_mod:champion_loot_bag"
 					type: "item"
 				}
 			]

@@ -855,14 +855,12 @@
 			can_repeat: true
 			dependencies: ["3C1CDBC749329522"]
 			description: ["Reduces world level by 25 . Requires the quest ascendant difficulty to be completed."]
-			icon: "minecraft:clock"
+			icon: "l2hostility:bottle_of_sanity"
 			id: "4057862FA8DB2C5E"
 			rewards: [{
-				command: "/autoleveling level add -50"
-				icon: "minecraft:clock"
-				id: "1FEA9E0C7B969C06"
-				title: "Reduce world level by 50"
-				type: "command"
+				id: "5CE5EDB994DCC7F0"
+				item: "l2hostility:bottle_of_sanity"
+				type: "item"
 			}]
 			size: 3.0d
 			subtitle: "Exchange"
@@ -893,7 +891,7 @@
 					type: "gamestage"
 				}
 			]
-			title: "Reduce world level by 50"
+			title: "Bottle of Sanity"
 			x: -4.5d
 			y: -18.0d
 		}
@@ -1101,8 +1099,8 @@
 				type: "item"
 			}]
 			title: "Pinnacle Reforge Mat Crate"
-			x: -4.5d
-			y: -26.5d
+			x: -13.5d
+			y: -22.5d
 		}
 		{
 			can_repeat: true
@@ -1195,6 +1193,26 @@
 			title: "Talisman of Betrayal"
 			x: -4.5d
 			y: -13.0d
+		}
+		{
+			icon: "l2hostility:bottle_of_curse"
+			id: "15D0FFFA8A20DE35"
+			rewards: [{
+				id: "2CA4DE1DC49050F9"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			size: 3.0d
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "51380F8EBD4824B8"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			title: "Bottle of Curse"
+			x: 4.5d
+			y: -22.5d
 		}
 	]
 	title: "{\"text\":\"Cisco's Wares\",\"color\":\"#E8CD1E\"}"

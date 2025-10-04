@@ -176,16 +176,11 @@
 			rewards: [
 				{
 					auto: "disabled"
-					command: "/autoleveling level add 150"
+					command: "/hostility player @p difficulty base set 150"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "cisco_mod:ascended_hero_helmet"
 						tag: {
 							Damage: 0
@@ -197,8 +192,8 @@
 						}
 					}
 					id: "56FAB134FC2045F1"
-					team_reward: true
-					title: "Increase world level by 150"
+					team_reward: false
+					title: "Increase player difficulty level by 150"
 					type: "command"
 				}
 				{
@@ -270,16 +265,11 @@
 			rewards: [
 				{
 					auto: "disabled"
-					command: "/autoleveling level add 300"
+					command: "/hostility player @p difficulty base set 450"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "cisco_mod:absolute_equillibrium"
 						tag: {
 							Damage: 0
@@ -291,7 +281,7 @@
 						}
 					}
 					id: "5EF90F8D0DD4EB55"
-					team_reward: true
+					team_reward: false
 					title: "Raise world level by 300"
 					type: "command"
 				}
@@ -362,16 +352,11 @@
 			rewards: [
 				{
 					auto: "disabled"
-					command: "/autoleveling level add 500"
+					command: "/hostility player @p difficulty base set 950"
 					elevate_perms: true
 					exclude_from_claim_all: true
 					icon: {
 						Count: 1
-						ForgeCaps: {
-							"celestisynth:celestisynthitemstackcapabilities": {
-								cs.aquaSkin: 0
-							}
-						}
 						id: "cisco_mod:sylvi_helmet"
 						tag: {
 							Damage: 0
@@ -383,7 +368,7 @@
 						}
 					}
 					id: "0796735DCE56B515"
-					team_reward: true
+					team_reward: false
 					title: "Raise world level by 500"
 					type: "command"
 				}

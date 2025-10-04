@@ -31,8 +31,8 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:0.5
-renderDistance:10
-simulationDistance:10
+renderDistance:16
+simulationDistance:16
 entityDistanceScaling:1.0
 guiScale:0
 particles:0
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"fast"
-resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets","fabric","file/EclecticTrove-1.20.1-1.3.0.zip","file/EmbellishedStone-1.20.1-1.0.0.zip","file/STONEBORN - Denis\u0027 Mod Compats v2.0.zip","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","file/STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip","Better_Enderdragon.zip","Carpg Translations","EclecticTrove-1.20.1-1.3.0.zip","EmbellishedStone-1.20.1-1.0.0.zip","STONEBORN - 1.4-1.20.1 MeiAdditions.zip","STONEBORN - Denis\u0027 Mod Compats v2.0.zip","STONEBORN+-+1.20-1.20.1+-+V3.2.3.zip","STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip"]
-incompatibleResourcePacks:["builtin/towntalk","file/STONEBORN - 1.4-1.20.1 MeiAdditions.zip","Better_Enderdragon.zip","Carpg Translations","STONEBORN - 1.4-1.20.1 MeiAdditions.zip","STONEBORN-+SBMC+-V3.1-Modded-Compatibility.zip"]
+resourcePacks:[]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -84,8 +84,8 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.33154490894039734
-soundCategory_music:1.0
+soundCategory_master:1.0
+soundCategory_music:0.5052202751392073
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

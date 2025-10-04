@@ -275,6 +275,17 @@
         "value": 2048
       }
     },
+    "l2damagetracker:fire_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -284,6 +295,17 @@
       "max": {
         "default": 1,
         "value": 1
+      }
+    },
+    "l2damagetracker:crit_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "attributeslib:crit_chance": {
@@ -363,6 +385,17 @@
         "value": 10000
       }
     },
+    "l2damagetracker:explosion_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "irons_spellbooks:holy_spell_power": {
       "enabled": false,
       "min": {
@@ -405,6 +438,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "block_factorys_bosses:movement_recovery": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 5,
+        "value": 5
       }
     },
     "irons_spellbooks:evocation_magic_resist": {
@@ -528,6 +572,17 @@
         "value": 34
       }
     },
+    "block_factorys_bosses:burning_stability": {
+      "enabled": false,
+      "min": {
+        "default": -10,
+        "value": -10
+      },
+      "max": {
+        "default": 10,
+        "value": 10
+      }
+    },
     "minecraft:generic.flying_speed": {
       "enabled": true,
       "min": {
@@ -548,6 +603,17 @@
       "max": {
         "default": 10000000,
         "value": 10000000
+      }
+    },
+    "sons_of_sins:cooldown_cap": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 240,
+        "value": 240
       }
     },
     "irons_spellbooks:lightning_spell_power": {
@@ -616,6 +682,17 @@
         "value": 100
       }
     },
+    "l2damagetracker:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "minecraft:generic.max_health": {
       "enabled": true,
       "min": {
@@ -647,6 +724,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "l2hostility:extra_scale": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10,
+        "value": 10
       }
     },
     "skilltree:stealth": {
@@ -693,17 +781,6 @@
         "value": 1000000
       }
     },
-    "autoleveling:monster.projectile_damage_bonus": {
-      "enabled": false,
-      "min": {
-        "default": 1,
-        "value": 1
-      },
-      "max": {
-        "default": 1000,
-        "value": 1000
-      }
-    },
     "ars_nouveau:ars_nouveau.perk.warding": {
       "enabled": false,
       "min": {
@@ -713,6 +790,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "autoleveling:monster.projectile_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.knockback_resistance": {
@@ -746,6 +834,17 @@
       "max": {
         "default": 2048,
         "value": 2048
+      }
+    },
+    "block_factorys_bosses:roll_animtime": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 100,
+        "value": 100
       }
     },
     "eldritch_end:corruption": {
@@ -867,6 +966,17 @@
       "max": {
         "default": 5000,
         "value": 5000
+      }
+    },
+    "l2damagetracker:damage_absorption": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
       }
     },
     "skilltree:exp_per_minute": {
@@ -1133,6 +1243,28 @@
         "value": 1024
       }
     },
+    "l2damagetracker:bow_strength": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
+    "l2damagetracker:damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": -10000,
+        "value": -10000
+      },
+      "max": {
+        "default": 10000,
+        "value": 10000
+      }
+    },
     "traveloptics:aqua_spell_power": {
       "enabled": false,
       "min": {
@@ -1211,6 +1343,17 @@
       }
     },
     "additionalentityattributes:water_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "l2damagetracker:crit_rate": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1406,6 +1549,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "l2hostility:extra_difficulty": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "skilltree:blocking": {

@@ -2197,9 +2197,6 @@
 							Items: [ ]
 							Size: 11
 						}
-						"celestisynth:celestisynthitemstackcapabilities": {
-							cs.aquaSkin: 0
-						}
 					}
 					id: "sons_of_sins:flesh_carcass"
 					tag: {

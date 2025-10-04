@@ -31,7 +31,7 @@
 			y: -31.5d
 		}
 	]
-	order_index: 7
+	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1021,13 +1021,13 @@
 		}
 		{
 			description: [
-				"&aTier 1 &f: Minimum level 25. Random level bonus 1-10. No increase to levels per distance."
+				"&aTier 1 &f: Minimum level 75. Small chance to have weak traits."
 				""
-				"&6Tier 2 &f: Minimum level 50. Random level bonus 1-15. Small increase to levels per distance."
+				"&6Tier 2 &f: Minimum level 200. Moderate chance to have medium level traits."
 				""
-				"&4Tier 3 &f: Minimum level 85. Random level bonus 1-20. Moderate increase to levels per distance."
+				"&4Tier 3 &f: Minimum level 500. High chance to have exceptional traits."
 				""
-				"&dGatekeepers &f: Always infernal. Start at slightly higher level than the tier they gatekeep. Must be defeated in order to progress to the next tier."
+				"&dGatekeepers &f: Always have high level traits. Start at slightly higher level than the tier they gatekeep. Must be defeated in order to progress to the next tier."
 			]
 			id: "678A7FE4D87993D3"
 			rewards: [{
